@@ -1,0 +1,131 @@
+
+
+/* Sección de contacto */
+#contact {
+  padding: 4rem 1.5rem;
+  background-color: #d1fae5; /* bg-gray-900 */
+
+
+}
+
+.container {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Título */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+
+.header h2 {
+  font-size: 2.25rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+.header .underline {
+  width: 6rem;
+  height: 0.25rem;
+  background-color: #22c55e;
+  margin: 0 auto;
+}
+
+.header p {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  color: black;
+}
+
+/* Contenedor de métodos de contacto */
+.contact-methods {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); */
+  gap: 2rem;
+  
+  justify-items: center;
+}
+
+/* Método de contacto individual */
+.contact-method {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  text-align: center;
+}
+
+.contact-method:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.icon-background {
+  width: 4rem;
+  height: 4rem;
+  background-color: #10b981;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.contact-method h3 {
+  font-size: 1.25rem;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.contact-method p {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.contact-method a {
+  color: #10b981;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-method a:hover {
+  color: #047857;
+}
+
+/* Botón de contacto */
+.footer-button {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: #10b981;
+  color: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #047857;
+}
+
+.icon-small {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
