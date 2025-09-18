@@ -64,7 +64,7 @@
   color: #fff;
 }
 
-.brand-name {
+.brand-titule {
   font-size: 1.25rem;
   font-weight: 700;
   color: #1f2937; 
@@ -109,6 +109,16 @@
     display: none;
   }
 }
+.brand-titule {
+ 
+  color: black !important;
+
+}
+
+.brand-titule:hover {
+  color: #34d399 !important; 
+}
+
 
 .mobile-menu-button svg {
   height: 1.5rem;

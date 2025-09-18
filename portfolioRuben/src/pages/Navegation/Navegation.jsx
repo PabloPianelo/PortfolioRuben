@@ -45,7 +45,7 @@ const Navegation = () => {
             <div className="microscope-icon">
               <Microscope className="h-6 w-6 text-white" />
             </div>
-            <span className="brand-name">
+            <span className="brand-titule">
               Dr. Ruben
             </span>
           </div>

@@ -33,6 +33,11 @@
   left: 5rem; 
 }
 
+.hero__decorative--FlaskRound  {
+  bottom: 10rem; 
+  right: 5rem; 
+}
+
 .hero__icon {
   width: 3rem; 
   height: 3rem; 
@@ -192,6 +197,7 @@
   max-width: 48rem; /* max-w-3xl */
   margin-left: auto;
   margin-right: auto;
+ 
 }
 
 @media (min-width: 640px) {
