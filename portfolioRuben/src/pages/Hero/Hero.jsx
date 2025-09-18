@@ -38,7 +38,7 @@ const Hero = () => {
 
           <div className="hero__buttons">
             <button
-              onClick={() => scrollToSection('contacto')}
+              onClick={() => scrollToSection('contact')}
               className="button button--primary"
             >
               Contactar

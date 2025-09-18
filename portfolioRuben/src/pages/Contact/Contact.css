@@ -1,39 +1,35 @@
-
-
-/* Sección de contacto */
+/* General contact section styling */
 #contact {
+  background-color: #d1fae5;
   padding: 4rem 1.5rem;
-  background-color: #d1fae5; /* bg-gray-900 */
-
-
 }
 
-.container {
+.contact-container {
   max-width: 72rem;
   margin: 0 auto;
   padding: 0 1.5rem;
+  text-align: center;
 }
 
-/* Título */
-.header {
-  text-align: center;
+/* Header for the contact section */
+.contact-header {
   margin-bottom: 3rem;
 }
 
-
-.header h2 {
+.contact-header h2 {
   font-size: 2.25rem;
   color: black;
   margin-bottom: 1rem;
 }
-.header .underline {
+
+.contact-header .underline {
   width: 6rem;
   height: 0.25rem;
   background-color: #22c55e;
   margin: 0 auto;
 }
 
-.header p {
+.contact-header p {
   margin-top: 1rem;
   font-size: 1.125rem;
   color: black;

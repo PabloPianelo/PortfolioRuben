@@ -1,0 +1,157 @@
+/* General Header Styles */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  transition: all 300ms ease-in-out;
+}
+
+.header-scrolled {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* For Safari support */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.header-container {
+  max-width: 84rem; /* Equivalent to max-w-7xl */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .header-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Brand Logo */
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.microscope-icon {
+  background: linear-gradient(to bottom right, #10b981, #059669);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.microscope-icon svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #fff;
+}
+
+.brand-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937; 
+}
+
+/* Desktop Navigation */
+.desktop-nav {
+  display: none;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .desktop-nav {
+    display: flex;
+  }
+}
+
+.nav-link {
+  color: #4b5563; 
+  font-weight: 500;
+  transition: color 200ms ease-in-out;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+ 
+  color: #059669; 
+}
+
+/* Mobile Menu Button */
+.mobile-menu-button {
+  display: block;
+  padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-button {
+    display: none;
+  }
+}
+
+.mobile-menu-button svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #4b5563; 
+}
+
+/* Mobile Navigation */
+.mobile-nav-container {
+  padding-bottom: 1rem;
+}
+
+.nav-link:focus,
+.mobile-nav-link:focus {
+  outline: none; 
+  
+ 
+}
+
+
+.mobile-nav {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+}
+
+.mobile-nav-link {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #4b5563; 
+  font-weight: 500;
+  transition: color 200ms ease-in-out;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.mobile-nav-link:hover {
+  color: #059669; 
+}

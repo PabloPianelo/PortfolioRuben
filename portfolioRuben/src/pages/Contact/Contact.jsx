@@ -29,9 +29,9 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="footer">
-      <div className="container">
-        <div className="header">
+    <section id="contact" >
+      <div className="contact-container">
+        <div className="contact-header">
           <h2>Hablemos</h2>
           <div className="underline"></div>
           <p>
