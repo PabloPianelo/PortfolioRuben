@@ -11,13 +11,15 @@
   background-color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px); 
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding-bottom: -0.5rem;
 }
 
 .header-container {
   max-width: 84rem; 
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem !important;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -41,7 +43,8 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.05rem;
+  
 }
 
 /* Brand Logo */
@@ -59,8 +62,8 @@
 }
 
 .microscope-icon svg {
-  height: 1.5rem;
-  width: 1.5rem;
+ height: 1.25rem;
+  width: 1.25rem;
   color: #fff;
 }
 

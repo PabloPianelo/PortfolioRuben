@@ -47,7 +47,7 @@ const Contact = () => {
               className="contact-method"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="icon-container">
+              <div className="icon-container-contact">
                 <div className="icon-background">{method.icon}</div>
               </div>
               <h3>{method.label}</h3>

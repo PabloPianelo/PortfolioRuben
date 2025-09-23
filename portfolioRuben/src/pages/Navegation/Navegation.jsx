@@ -26,9 +26,9 @@ const Navegation = () => {
   const navItems = [
     { id: 'inicio', label: 'Inicio' },
     { id: 'sobre-mi', label: 'Sobre Mí' },
-    // { id: 'experiencia', label: 'Experiencia' },
-    // { id: 'habilidades', label: 'Habilidades' },
-    // { id: 'proyectos', label: 'Proyectos' },
+    { id: 'educacion', label: 'Educación' },
+    { id: 'experiencia', label: 'Experiencia' },
+    { id: 'proyectos', label: 'Proyectos' },
     { id: 'contact', label: 'Contacto' },
   ];
 

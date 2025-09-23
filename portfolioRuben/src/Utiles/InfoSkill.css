@@ -1,0 +1,211 @@
+/* Section and Container */
+.experience-section-Education {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: linear-gradient(to bottom right, #f9fafb, #dcfce7);
+}
+
+.experience-section-Experiencie {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #def7ea;
+}
+
+.container {
+  max-width: 84rem; /* 1344px */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Header */
+.header-container {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2rem; /* 32px */
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .section-title {
+    font-size: 2.25rem; /* 36px */
+  }
+}
+
+.divider {
+  width: 6rem; /* 96px */
+  height: 0.25rem; /* 4px */
+  background-image: linear-gradient(to right, #10b981, #34d399);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 9999px;
+}
+
+/* Experience Cards */
+.experiences-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-card {
+  background-color: white;
+  border-radius: 1.5rem; /* 24px */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  transition-property: box-shadow;
+  transition-duration: 300ms;
+}
+
+.experience-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Card Content */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .card-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+/* Icon */
+.icon-wrapper {
+  flex-shrink: 0;
+}
+
+.icon-container {
+  width: 4rem; 
+  height: 4rem; 
+  border-radius: 0.75rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  height: 2rem; 
+  width: 2rem; 
+  color: white;
+}
+
+/* Background Gradients for Icons */
+.gradient-emerald {
+  background-image: linear-gradient(to bottom right, #10b981, #34d399);
+}
+
+
+/* .gradient-teal {
+  background-image: linear-gradient(to bottom right, #14b8a6, #3b82f6);
+} */
+
+/* Text Content */
+.text-content {
+  flex-grow: 1;
+}
+
+.info-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .info-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.job-title {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.company {
+  color: #059669;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.period-container {
+  display: flex;
+  align-items: center;
+  color: #4b5563;
+  font-size: 0.875rem; /* 14px */
+}
+
+.calendar-icon {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.location-container {
+  color: #4b5563;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.chevron-icon {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+  color: #10b981;
+}
+
+/* Description List */
+.description-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.description-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bullet-point {
+  width: 0.5rem; /* 8px */
+  height: 0.5rem; /* 8px */
+  background-color: #10b981;
+  border-radius: 9999px;
+  margin-top: 0.5rem;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.description-text {
+  color: #374151;
+}

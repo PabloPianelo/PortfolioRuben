@@ -39,7 +39,7 @@ const About = () => {
 
               <div className="about-info-grid">
                 <div className="about-info-item location-item">
-                  <MapPin className="icon location-icon" />
+                  <MapPin className="icon" />
                   <div>
                     <div className="info-title">Ubicación</div>
                     <div className="info-text">Murcia, España</div>
@@ -47,7 +47,7 @@ const About = () => {
                 </div>
                 
                 <div className="about-info-item availability-item">
-                  <Calendar className="icon availability-icon" />
+                  <Calendar className="icon" />
                   <div>
                     <div className="info-title">Disponibilidad</div>
                     <div className="info-text">Ocupado</div>
@@ -93,7 +93,7 @@ const About = () => {
 
             
 
-            <div className="credential-box certifications-box">
+            <div className="credential-box certifications-box education-box">
               <div className="credential-header">
                 <Award className="icon" />
                 <h3 className="credential-title-h3">Certificaciones</h3>
