@@ -3,6 +3,14 @@ export const educationData = [
     title: "Universidad de Murcia ",
     school: "Carrera Universitaria: Biología",
     date: "2017-2022"
+},{
+    title: "B1 Ingles (Cambridge)",
+    school: "Cambridge Institutes",
+    date: "2018"
+},{
+    title: "B2 Ingles (Trinity)",
+    school: "Trinity College London",
+    date: "2023"
 }
 
 ];

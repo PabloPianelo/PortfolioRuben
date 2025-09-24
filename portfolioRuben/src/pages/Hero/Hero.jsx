@@ -36,8 +36,7 @@ const Hero = () => {
           </h1>
 
           <p className="hero__subtitle">
-            Especialista en biotecnología agrícola con más de 8 años de experiencia
-            en investigación y desarrollo de soluciones sostenibles para la agricultura moderna.
+            Biólogo especializado en el ámbito de la agricultura ecológica, con más de dos años de experiencia profesional en el sector
           </p>
 
           <div className="hero__buttons">

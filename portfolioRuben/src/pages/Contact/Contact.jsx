@@ -35,7 +35,7 @@ const Contact = () => {
           <h2>Hablemos</h2>
           <div className="underline"></div>
           <p>
-            ¿Tienes un proyecto interesante? Me encantaría colaborar en el desarrollo de soluciones innovadoras para la agricultura sostenible.
+          ¿Cuentas con alguna oferta laboral interesante? Estaría encantado de conocer más al respecto y ver cómo podría aportar valor a tu proyecto
           </p>
         </div>
 

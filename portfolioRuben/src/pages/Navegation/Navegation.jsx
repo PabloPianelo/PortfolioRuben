@@ -46,7 +46,7 @@ const Navegation = () => {
               <Microscope className="h-6 w-6 text-white" />
             </div>
             <span className="brand-titule">
-              Dr. Ruben
+             Rubén López
             </span>
           </div>
 

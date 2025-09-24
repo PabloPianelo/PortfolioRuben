@@ -19,7 +19,7 @@ function Home() {
         <About/>
        
         {/* education */}
-        <InfoSkill  id={"educacion"} titule="Educacíon" data={educationData} bgColor="Education"  icon="University"/>
+        <InfoSkill  id={"educacion"} titule="Educación & Certificaciones" data={educationData} bgColor="Education"  icon="University"/>
         {/* <Experience/> */}
        <InfoSkill  id={"experiencia"} titule="Experiencia" data={experienceData} bgColor="Experiencie"  icon="Building"/>
        <Projects/>

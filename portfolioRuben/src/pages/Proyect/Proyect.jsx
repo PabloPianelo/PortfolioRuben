@@ -120,14 +120,7 @@ const Projects = () => {
                   </div>
                 </div>
 
-                <div className="project-impact-box">
-                  <div className="project-impact-title">
-                    Impacto Principal
-                  </div>
-                  <div className="project-impact-text">
-                    {project.impact}
-                  </div>
-                </div>
+               
 
                 <div className="project-tags">
                   {project.tags.map((tag, idx) => (
