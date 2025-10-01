@@ -1,6 +1,7 @@
 import React from 'react';
 import { ExternalLink, Calendar, Tag, Users } from 'lucide-react';
 import './Proyect.css';
+import RubenCV from '../../assets/CV_Ruben_Lopez.pdf';
 
 const Projects = () => {
   const projects = [
@@ -13,7 +14,8 @@ const Projects = () => {
       team: '6 investigadores',
       impact: 'Incremento del 35% en rendimiento',
       status: 'En desarrollo',
-      color: 'from-emerald-500 to-green-500'
+      color: 'from-emerald-500 to-green-500',
+      pdfUrl: RubenCV
     },
     {
       title: 'Sistema IoT para Agricultura de Precisión',
@@ -67,6 +69,10 @@ const Projects = () => {
       default: return '';
     }
   };
+
+
+
+  
 
   return (
     <section id="proyectos" className="projects-section">
@@ -134,10 +140,15 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <button className="project-button">
-                  Ver Detalles
+                 <a
+                  href={project.pdfUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-button"
+                >
+                  Ver PDF
                   <ExternalLink className="project-button-icon" />
-                </button>
+                </a>
               </div>
             </div>
           ))}

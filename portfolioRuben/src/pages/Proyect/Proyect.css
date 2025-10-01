@@ -259,10 +259,14 @@
   justify-content: center;
   border: none;
   cursor: pointer;
+  text-decoration: none; 
+  color: inherit; 
 }
 
 .project-button:hover {
   background-image: linear-gradient(to right, #059669, #16a34a);
+  text-decoration: none; 
+  color: inherit; 
 }
 
 .project-button-icon {
